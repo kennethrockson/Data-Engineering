@@ -11,7 +11,7 @@ def parse_pub_date(url):
   return dates
   
 # setting up the API Key and NYT search for getting response objects
-API_KEY= '7sOHDTmX7gn22GA8zwtAHN1B2aIuwi3Y'
+API_KEY= 'My API KEY'
 base_url= 'https://api.nytimes.com/svc/search/v2/articlesearch.json?'
 d_sn_filter='document_type:("article")'
 fl_tuple=('abstract','web_url','headline')
